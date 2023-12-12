@@ -1,0 +1,20 @@
+Project source: freeCodeCamp.org - link: https://youtu.be/Cy9fAvsXGZA?si=lip9eNnuHkJBMxRp
+
+This is a simple microservices app using the following stack: 
+
+
+FastAPI: As the API Web Framework for two microservices: Inventory (To store products) and Payment (To purchase those products).
+ReactJS: Ass  the app frontend web framework.
+RedisJSON DB: To store data
+Redis Streams: To send events from one microservice to another
+
+Why this architecture?
+For this simple app, Redis can be used instead of other databases like RabbitMQ or Kafka.
+
+
+App Summary:
+Is an app in which you can create products, and set price and quantity. An id will be created,and you can perform actions like add or delete.
+
+
+Testing:
+Endpoints are testing in https://www.postman.com/
